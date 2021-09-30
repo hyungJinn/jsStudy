@@ -8,3 +8,4 @@ bgImage.src = `img/${chosenImage}`;
 console.log(bgImage);
 
 document.body.appendChild(bgImage);
+//append 가장 뒤에, prepend 가장 위에
