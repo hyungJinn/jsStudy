@@ -68,6 +68,39 @@ p {
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Open Sans", sans-serif;
+  cursor: default;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-white);
+}
+
+/* Navbar */
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--color-white);
+  padding: 12px;
+}
+
+#navbar__right {
+  display: flex;
+  /* padding: 8px 12px;
+  margin: 0 4px; */
+}
+
+#weather {
+  padding: 0, 10px;
+  margin: 0, 10px;
+  border: solid 1px var(--color-white);
+  border-radius: 4px;
+}
+
 .hidden {
   display: none;
 }
