@@ -203,6 +203,8 @@ input {
 /* greeting */
 #greeting {
   color: var(--color-white);
+  margin: 22px;
+  padding: 5px 12px;
 }
 
 #todo-form {
