@@ -123,9 +123,10 @@ button {
   font-family: "Share Tech Mono", monospace;
   color: #ffffff;
   text-align: center;
+  align-items: center;
   margin: auto;
   width: 800px;
-  height: 500px;
+  height: 350px;
   /* background-color: var(--color-light-grey); */
   /* position: absolute; */
   /* left: 50%; */
@@ -177,6 +178,16 @@ button {
 }
 
 /* Todolist */
+
+/* Bottom */
+#bottom {
+  text-align: center;
+  margin: auto;
+  width: 800px;
+  height: 100px;
+  line-height: 50px;
+  color: var(--color-white);
+}
 
 .hidden {
   display: none;
