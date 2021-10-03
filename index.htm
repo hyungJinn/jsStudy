@@ -21,11 +21,12 @@
   </head>
   <body>
     <!-- Navbar -->
+
     <nav id="navbar">
       <div id="navbar__left">
         <div id="weather">
-          <span></span>
-          <span></span>
+          <div></div>
+          <div></div>
         </div>
       </div>
       <div id="navbar__right">
@@ -38,7 +39,7 @@
           />
           <button id="submit" class="login__button">Log In</button>
         </form>
-        <h1 id="greeting" class="hidden"></h1>
+        <h2 id="greeting" class="hidden"></h2>
       </div>
     </nav>
 
@@ -53,15 +54,15 @@
             <a href="https://github.com/hyungJinn">HyungJin</a>
           </p>
         </div>
-        <div id="todolist-container" class="content__right">
-          <div id="todolist">
-            <form action="" id="todo-form">
-              <input
-                type="text"
-                placeholder="Write a To Do and Press Enter"
-                required
-              />
-            </form>
+        <div class="content__right">
+          <form action="" id="todo-form">
+            <input
+              type="text"
+              placeholder="Write a To Do and Press Enter"
+              required
+            />
+          </form>
+          <div id="todolist-container">
             <ul id="todo-list"></ul>
           </div>
         </div>

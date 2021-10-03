@@ -79,6 +79,10 @@ a {
   color: var(--color-white);
 }
 
+ul {
+  list-style: none;
+}
+
 button {
   background-color: transparent;
   cursor: pointer;
@@ -102,7 +106,7 @@ button {
 }
 
 #weather {
-  padding: 0, 10px;
+  padding: 10px;
   margin: 0, 10px;
   border: solid 1px var(--color-white);
   border-radius: 4px;
@@ -146,14 +150,14 @@ button {
   align-items: center;
   line-height: 50px;
   padding: 70px 0 0 0;
-  border: 2px solid var(--color-grey);
+  border: 2px solid var(--color-white);
   border-radius: var(--size-border-radius);
 }
 
 .content__right {
   flex-basis: 300px;
   height: 300px;
-  border: 2px solid var(--color-grey);
+  border: 2px solid var(--color-white);
   border-radius: var(--size-border-radius);
 }
 
@@ -179,36 +183,21 @@ button {
   /* padding: 20px 0 0; */
 }
 
+/* greeting */
+#greeting {
+  color: var(--color-white);
+}
+
 /* Todolist */
 
 #todolist {
-  overflow-y: auto;
+  overflow: scroll;
   /* background-color: white;
   width: 350px;
   margin-top: 20px;
   padding: 10px 40px 10px 0px;
   overflow-y: scroll; */
 }
-
-/* #todolist::-webkit-scrollbar {
-  width: 5.2px;
-} */
-/* #todolist::-webkit-scrollbar {
-  width: 10px;
-  background-color: black;
-}
-ul {
-  margin: 0px;
-  padding: 0px;
-  width: ;
-}
-li {
-  list-style: none;
-  border-bottom: 1px solid lightgrey;
-  padding-bottom: 15px;
-  padding-top: 15px;
-  font-size: 1.3em;
-} */
 
 /* Bottom */
 #bottom {
@@ -234,7 +223,4 @@ img {
   bottom: 0px;
   z-index: -1;
   opacity: 80%;
-}
-
-#login-form {
 }
