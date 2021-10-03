@@ -83,11 +83,28 @@ ul {
   list-style: none;
 }
 
+li {
+  padding: 5px 0px 5px 0px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #efefef;
+  font-size: 12px;
+}
+
 button {
   background-color: transparent;
   cursor: pointer;
   border: none;
   outline: none;
+}
+
+input {
+  width: 200px;
+  height: 30px;
+  border: none;
+  color: #000000;
+  background: transparent;
+  border-bottom: 2px solid var(--color-white);
+  border-radius: var(--size-border-radius);
 }
 
 /* Navbar */
@@ -188,10 +205,16 @@ button {
   color: var(--color-white);
 }
 
-/* Todolist */
+#todo-form {
+  padding-top: 15px;
+}
 
-#todolist {
-  overflow: scroll;
+#todo-container {
+}
+
+/* Todolist */
+#todo-list {
+  overflow: auto;
   /* background-color: white;
   width: 350px;
   margin-top: 20px;
