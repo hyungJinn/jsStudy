@@ -222,6 +222,17 @@ input {
   overflow-y: scroll; */
 }
 
+.delete__button {
+  color: red;
+  float: right;
+  font-size: var(--font-micro);
+  font-weight: var(--weight-regular);
+  margin-right: 10px;
+  padding: 2px;
+  /* border: 2px solid white; */
+  /* border-radius: var(--size-border-radius); */
+}
+
 /* Bottom */
 #bottom {
   text-align: center;
