@@ -59,6 +59,7 @@ h3 {
 p {
   font-size: var(--font-regular);
   font-weight: var(--font-regular);
+  /* align-items: center; */
   /* color: var(--color-black); */
   margin: 4px 0;
 }
@@ -124,7 +125,8 @@ button {
   text-align: center;
   margin: auto;
   width: 800px;
-  background-color: var(--color-light-grey);
+  height: 500px;
+  /* background-color: var(--color-light-grey); */
   /* position: absolute; */
   /* left: 50%; */
   /* top: 50%; */
@@ -139,7 +141,12 @@ button {
 
 .content__left {
   flex-basis: 60%;
-  background-color: #616161;
+  height: 300px;
+  align-items: center;
+  line-height: 50px;
+  padding: 70px 0 0 0;
+  border: 2px solid var(--color-grey);
+  border-radius: var(--size-border-radius);
 }
 
 .content__right {
