@@ -141,7 +141,7 @@ button {
 }
 
 .content__left {
-  flex-basis: 60%;
+  flex-basis: 500px;
   height: 300px;
   align-items: center;
   line-height: 50px;
@@ -151,8 +151,10 @@ button {
 }
 
 .content__right {
-  flex-basis: 40%;
-  background-color: #73aace;
+  flex-basis: 300px;
+  height: 300px;
+  border: 2px solid var(--color-grey);
+  border-radius: var(--size-border-radius);
 }
 
 /* Clock */
@@ -178,6 +180,35 @@ button {
 }
 
 /* Todolist */
+
+#todolist {
+  overflow-y: auto;
+  /* background-color: white;
+  width: 350px;
+  margin-top: 20px;
+  padding: 10px 40px 10px 0px;
+  overflow-y: scroll; */
+}
+
+/* #todolist::-webkit-scrollbar {
+  width: 5.2px;
+} */
+/* #todolist::-webkit-scrollbar {
+  width: 10px;
+  background-color: black;
+}
+ul {
+  margin: 0px;
+  padding: 0px;
+  width: ;
+}
+li {
+  list-style: none;
+  border-bottom: 1px solid lightgrey;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  font-size: 1.3em;
+} */
 
 /* Bottom */
 #bottom {
