@@ -1,10 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Basic Imformation -->
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="HyungJin" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css" />
+    <meta
+      name="Haam's Chrome"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Haam's Chrome</title>
+    <meta
+      name="description"
+      content="Chrome App with VanillaJS for the engineer Haam"
+    />
+    <meta name="author" content="Haam" />
+    <link rel="icon" type="imgs/png" href="imgs/favicon.png" />
+
+    <!-- Font -->
     <script
       src="https://kit.fontawesome.com/17dcf82908.js"
       crossorigin="anonymous"
@@ -17,19 +29,19 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
       rel="stylesheet"
     />
-    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <!-- Navbar -->
     <nav id="navbar">
-      <div id="navbar__left">
-        <div id="weather">
+      <div class="navbar__logo">
+        <div class="logo__weather">
           <div></div>
           <div></div>
         </div>
       </div>
-      <div id="navbar__right">
-        <form id="login-form" class="hidden">
+      <div class="navbar__menu">
+        <form class="login-form" class="hidden">
           <input
             required
             maxlength="15"
