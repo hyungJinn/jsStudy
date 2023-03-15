@@ -2,11 +2,13 @@
 
 Chrome App made with VanillaJS
 
+### References
+[Nomadcoder](https://nomadcoders.co/javascript-for-beginners)
+
 Is there design I want to make?
+Nope.
 
-### The reason why I need to learn Vanilla JS.
-
-[vanilla js]: (http://vanilla-js.com/)
+### The reason why I need to learn [Vanilla JS.](http://vanilla-js.com/)
 
 Vanilla JS is the fast and light **cross platform framework** to make an amazing and powerful JavaScript App. But it is difficult to improve productivity only using **basic language**.
 
