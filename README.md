@@ -5,11 +5,11 @@ Chrome App made with VanillaJS
 외부의 라이브러리나 프레임워크를 이용하지 않는 순수 자바스크립트를 말한다. 외부의 라이브러리나 프레임워크를 사용하지 않기 때문에, 더 빠르고 호환성이 좋고 디버그하는 시간이 줄어든다.<br />
 자바스크립트의 본질을 제대로 알지 못한 상태에서 편의성만을 위해 프레임워크나 라이브러리를 활용하는 것에 대한 문제가 제기..
 
-### The reason why I need to learn [Vanilla JS.](http://vanilla-js.com/)
+### The reason why we need to learn [Vanilla JS.](http://vanilla-js.com/)
 
 Vanilla JS is the fast and light **cross platform framework** to make an amazing and powerful JavaScript App. But it is difficult to improve productivity only using **basic language**.<br />
-The point that I learn Vanilla JS is not to keep me from relying on framework and library excessively.<br />
-Whenever a framework and library what I use can be changed so it is important to understand Vanilla JS.
+The point that we need to learn Vanilla JS is not to keep us from relying on framework and library excessively.<br />
+Whenever a framework and library what we use can be changed, so it is important to understand Vanilla JS.
 
 
 <!-- 바닐라 JS는 놀랍고 강력한 자바스크립트 앱을 만들기 위한 빠르고 가벼운 크로스 플랫폼 프레임워크다. 하지만, 기본 언어만으로 높은 생산성을 달성하는 것은 쉽지 않다.
