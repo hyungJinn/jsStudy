@@ -1,5 +1,7 @@
 Chrome App made with VanillaJS
 
+[JavaScript](https://haaam.notion.site/JavaScript-e817b10b047d4566b1c263e692251bb1)
+
 ## Vanilla JS
 
 외부의 라이브러리나 프레임워크를 이용하지 않는 순수 자바스크립트를 말한다. 외부의 라이브러리나 프레임워크를 사용하지 않기 때문에, 더 빠르고 호환성이 좋고 디버그하는 시간이 줄어든다.<br />
